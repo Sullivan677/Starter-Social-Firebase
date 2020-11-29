@@ -21,7 +21,6 @@
 		753761DD2568115E00111615 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753761DC2568115E00111615 /* ListViewController.swift */; };
 		75939EE125740DE80016F70F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75939EE025740DE80016F70F /* TabBar.swift */; };
 		75939EE625740E650016F70F /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75939EE525740E650016F70F /* ProfilVC.swift */; };
-		759B831A25627F2C00FA70F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 759B831925627F2C00FA70F3 /* GoogleService-Info.plist */; };
 		E30405742DF822E0EBD995DB /* Pods_SignInWithApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A6977EDE1273CDE2855C8C /* Pods_SignInWithApple.framework */; };
 		FDFE6AA7F2CD5933FF5D0095 /* Pods_SignInWithAppleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9A6C6E26A5D19C3C01A8D7 /* Pods_SignInWithAppleTests.framework */; };
 /* End PBXBuildFile section */
@@ -68,7 +67,6 @@
 		753761DC2568115E00111615 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		75939EE025740DE80016F70F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		75939EE525740E650016F70F /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
-		759B831925627F2C00FA70F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFF3391E962F250778FE0C12 /* Pods-SignInWithAppleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithAppleTests.release.xcconfig"; path = "Target Support Files/Pods-SignInWithAppleTests/Pods-SignInWithAppleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C1A6977EDE1273CDE2855C8C /* Pods_SignInWithApple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithApple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C560B7F76ACB72B2E7F33066 /* Pods-SignInWithApple-SignInWithAppleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithApple-SignInWithAppleUITests.release.xcconfig"; path = "Target Support Files/Pods-SignInWithApple-SignInWithAppleUITests/Pods-SignInWithApple-SignInWithAppleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				7515F9DD2562850C0019FF32 /* SignInWithApple.entitlements */,
-				759B831925627F2C00FA70F3 /* GoogleService-Info.plist */,
 				75195694255EE1970089745B /* AppDelegate.swift */,
 				75195696255EE1970089745B /* SceneDelegate.swift */,
 				75939EE025740DE80016F70F /* TabBar.swift */,
@@ -305,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				751956A1255EE1970089745B /* LaunchScreen.storyboard in Resources */,
-				759B831A25627F2C00FA70F3 /* GoogleService-Info.plist in Resources */,
 				7519569E255EE1970089745B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
